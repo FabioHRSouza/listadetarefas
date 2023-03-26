@@ -11,9 +11,13 @@ export const ToDoProvider = ({ children }) => {
     const concluirTarefa = (id) => {
         setListaDeTarefas(tarefa.filter((tarefa) => tarefa.id !== id));
     };
+
+    const removerTarefa = (id) => {
+        setListaDeTarefas(listaDeTarefas.filter((tarefa) => tarefa.id !== id));
+      };
     
     return (
-        <ToDoContext.Provider value={{ listaDeTarefas, adicionarTarefa, concluirTarefa }}>
+        <ToDoContext.Provider value={{ listaDeTarefas, adicionarTarefa, concluirTarefa, removerTarefa }}>
         {children}
         </ToDoContext.Provider>
     );

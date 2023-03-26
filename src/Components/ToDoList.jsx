@@ -22,6 +22,12 @@ export const ToDoList = () => {
 
     };
 
+    const handleRemover = (id) => {
+        
+        removerTarefa(id);
+
+    };
+
     return (
         <>
             <form onSubmit={handleSubmit}>
@@ -34,6 +40,7 @@ export const ToDoList = () => {
                     <li key={tarefa.id}>
                         {tarefa.texto}
                         <button onClick={() => handleConcluir(tarefa.id)}>Concluir</button>
+                        <button onClick={() => handleRemover(tarefa.id)}>Excluir</button>
                     </li>
                 ))}
             </ul>
