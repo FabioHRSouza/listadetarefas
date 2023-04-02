@@ -2,7 +2,7 @@
  1 [x] criar um input para receber o texto da tarefa 
  2 [x] criar um useState para armazenar o valor do texto da tarefa
  3 [x] botão para chamar o método de adicionar
- 4 [x] criar a lógica da função para adicionar o valor
+ 4 [x] criar a lógica da função para adicionar valor
 */
 
 import { useState } from "react";

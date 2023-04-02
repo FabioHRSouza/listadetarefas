@@ -2,7 +2,7 @@
  1 [x] receber por props a tarefa e a função de remover a tarefa 
  2 [x] criar um useState para armazenar o valor se a tarefa está finalizada ou não
  3 [x] botão para chamar o método de finalizar
- 4 [x] botão para chamar o método de remover a tarefa
+ 4 [x] botão para chamar o método de remoção da tarefa
 */
 
 

@@ -25,7 +25,7 @@ function App() {
 
   function removerTarefa(tarefa){
 
-    // filtra a tarefa selecionada e assim remove a tarefa
+    // filtra a tarefa selecionada e assim remove a tarefa selecionada
     const novaLista = listaDeTarefas.filter(item => item.id != tarefa.id)
 
     setListaDeTarefas(novaLista)
